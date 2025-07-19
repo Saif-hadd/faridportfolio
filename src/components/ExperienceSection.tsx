@@ -3,8 +3,32 @@ import { MapPin } from 'lucide-react';
 
 const ExperienceSection: React.FC = () => {
   const experiences = [
+    {
+    year: 'Feb 2023 – Apr 2024',
+    role: 'Head Chef',
+    company: 'Entrecôte Café de Paris',
+    location: 'Riyadh, Saudi Arabia',
+    color: 'from-rose-500 to-red-600',
+    achievements: [
+      'Supervised kitchen operations and ensured the authenticity of French cuisine, with a focus on the original Café de Paris sauce.',
+      'Collaborated on menu development, maintained high hygiene standards, and optimized team performance and cost control.'
+    ]
+  },
   {
-    year: 'Nov 2018 – Present',
+    year: 'Jan 2021 – Jan 2023',
+    role: 'Head Chef',
+    company: 'Millennia Olaya Hotel',
+    location: 'Riyadh, Saudi Arabia',
+    color: 'from-indigo-500 to-blue-600',
+    achievements: [
+      'Supervised all kitchen operations in a 4-star hotel environment, ensuring high culinary standards and guest satisfaction.',
+      'Created seasonal menus and customized offerings for events and banquets.',
+      'Trained and managed a multicultural kitchen team, fostering a productive and hygienic work environment.',
+      'Controlled food costs through effective inventory, vendor relations, and portion management.'
+    ]
+  },
+  {
+    year: 'Nov 2018 – Nov 2020',
     role: 'Sous Chef – Pre-Opening',
     company: 'Shaza Hotel',
     location: 'Riyadh, Saudi Arabia',
